@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #F5F5F5;
+    margin: 0px 0px 18px 0px;
+    width: 100%;
+    
+}
+
+.logotipo {
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 118px;
+    
+}
+
+nav {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    margin-right: 117px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #828282;
+    list-style: none;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    margin-right: 115px;
+}
+
+.container {
+    margin-left: 88px;
+    display: flex;
+    width: 67%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    height: 380px;
+    margin-left: 27px;
+    margin-right: 10px;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F5F5F5;
+}
+.card:hover {
+    border: 2px solid #2E245E;
+}
+
+.fundo-card-imagem {
+    width: 280px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+
+}
+
+.card-imagem {
+    height: 140px;
+}
+
+.card-imagem:hover {
+    cursor: pointer;
+}
+
+.card-tag {
+    background-color: #2E245E;
+    font-family: 'Inter', sans-serif;
+    padding: 5px;
+    height: 16px;
+    width: 62px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.card-tag:hover {
+    cursor: pointer;
+}
+
+.nome-do-produto {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0px 0px 0px 15px;
+}
+
+.descricao-produto {
+    height: 33px;
+    width: 249px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+    max-width: 269px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+    text-align: justify;
+    margin: 15px 12px 15px 15px;
+}
+
+.preco {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E245E;
+    height: 16px;
+    width: 249px;
+    margin: 0px 12px 0px 15px;
+}
+
+.adicionar-carrinho {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 14px;
+    width: 269px;
+    color: #828282;
+    text-decoration: underline;
+    margin: 15px 0px 20px 15px;
+}
+
+.adicionar-carrinho:hover {
+    color: #6B54DE;
+    cursor: pointer;
+}
+
+.aside-input {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.div-input {
+    height: 50px;
+    width: 290px;
+    background-color: #F5F5F5;
+}
+
+input {
+    height: 16px;
+    width: 163px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    line-height: 16px;
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    margin: 17px 69px 17px 14px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+}
+
+#botao-pesquisar {
+    height: 50px;
+    width: 100px;
+    background-color: #6B54DE;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+#botao-pesquisar:hover {
+    cursor: pointer;
+}
+
+
+
+.aside-carrinho {
+    background-color: #F5F5F5;
+    width: (100+290)+ px;
+    height: 50px;
+}
+
+#botao-carrinho {
+    height: 50px;
+    width: 390px;
+    background-color: #6B54DE;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+#botao-carrinho:hover {
+    cursor: pointer;
+}
+
+.itens-carrinho {
+    height: 300px;
+    width: 388px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.item-no-carrinho {
+    height: 100px;
+    width: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+.item-no-carrinho:hover {
+    background-color: #F5F5F5;
+
+}
+
+.fundo-item-no-carrinho {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho-imagem {
+    height: 60px;
+}
+
+.dados-item-carrinho {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-do-produto-carrinho {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin: 10px 0px 10px 15px;
+}
+
+.preco-carrinho {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E245E;
+    margin: 0px 0px 0px 15px;
+}
+
+.remover-do-carrinho {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 14px;
+    width: 150px;
+    color: #828282;
+    text-decoration: underline;
+    margin: 10px 0px 0px 15px;
+}
+
+.remover-do-carrinho:hover {
+    color: #6B54DE;
+    cursor: pointer;
+}
+
+
+.totais-do-carrinho {
+    background-color: #333333;
+    width: 386px;
+    height: 126px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+#txt-qtde-carrinho {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    height: 16px;
+    margin: 30px 0px 32px 17px;
+}
+
+#qtde-carrinho {
+    font-family: 'Inter', sans-serif;
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    width: 25px;
+    margin: 30px 21px 32px 222px;
+    text-align: end;
+}
+
+#txt-totais-carrinho {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    height: 16px;
+    margin: 0px 0px 32px 17px;
+}
+
+#totais-carrinho {
+        font-family: 'Inter', sans-serif;
+        color: #828282;
+        font-size: 16px;
+        font-weight: 400;
+        height: 16px;
+        width: 100px;
+        margin: 0px 21px 32px 200px;
+        text-align: end;
+}
+
+.tag-ativa {
+    text-decoration: underline 3px;
+}
+
+
